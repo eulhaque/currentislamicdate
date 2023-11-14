@@ -10,7 +10,7 @@ Module.register("currentislamicdate",{
 		updateInterval: 10 * 60 * 1000, // every 24 hour
 		initLoadDelay: 0,
 		retryDelay:2500,
-		dateApi: 'http://api.aladhan.com/gToH?date=',
+		dateApi: 'https://api.aladhan.com/v1/gToH/',
 		css_class: 'bright medium',
 		month_lang: 'ar', // 'en' -> for english month and 'ar' -> arabic
 	},
